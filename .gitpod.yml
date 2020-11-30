@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: latexmk
+    command: |
+      open document.tex
+      open document.pdf
+
+vscode:
+  extensions:
+    - James-Yu.latex-workshop@8.13.2:fmme2CxC0c/X314HZf17Fw==
